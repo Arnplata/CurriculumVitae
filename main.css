@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    font-family: 'Roboto';
+}
+.header{
+    background-color: #FFA000;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 1em 2em;
+    height: 10vh;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 11;
+}
+
+
+.contact{
+    display: flex;
+}
+
+.contact .icono{
+    margin-right: .5em;
+    font-size: 16px;
+}
+
+.contactCnt{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+}
+
+.header .lgo{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 21px;
+}
+
+.mainCont{
+    display: flex;
+    padding: 2em 5vw;
+    height: 80vh;
+    position: relative;
+    top: 10vh;
+    z-index: 10;
+    height: auto;
+}
+
+.mainCont .cont1{width: 40vw;position: fixed;}
+
+.mainCont .cont2{width: 50vw;position: relative;left: 40vw;}
+
+.photo{
+    
+background-image: url(assets/fotoAaron.png);
+    
+background-size: cover;
+    
+width: 12vw;
+    
+height: 35vh;
+    
+min-width: 10em;
+    
+border-radius: 20px 1px 20px 0px;
+    
+z-index: 10;
+}
+
+.ficha{
+    
+display: flex;
+    
+justify-content: space-around;
+    
+position: relative;
+}
+
+.fichaDesc{
+    
+display: flex;
+    
+flex-direction: column;
+    
+justify-content: space-between;
+    
+z-index: 10;
+}
+
+.fichaDesc .nombreDesc{
+
+font-weight: 600;
+
+font-size: 20px;
+}
+
+.fichaDesc .titDesc{
+    
+font-size: 15px;
+}
+
+.datosDesc{
+    
+padding: 0;
+    
+margin: 0;
+    
+margin-bottom: 30px;
+    
+font-size: 14px;
+}
+
+.datosDesc li{
+    
+list-style: none;
+}
+
+.bar{
+    
+width: 30vw;
+    
+height: 16px;
+    
+position: absolute;
+    
+background: linear-gradient(to right, #FFA000 54%, white );
+    
+bottom: 0;
+    
+left: 50px;
+}
+
+.subDesc{
+    margin-top: 10px;
+    width: 95%;
+}
+
+.subDesc strong{
+
+font-size: 17px;
+}
+
+.subDesc p{
+    
+font-size: 15px;
+    
+margin-top: 5px;
+}
+
+.desc{
+    margin-top: 2em;
+}
+
+.footer{
+    height: 12vh;
+    background: #FFA000;
+    margin-top: 10vh;
+}
+.cont2 .tit div{
+    display: flex;
+    justify-content: center;
+}
+
+.hab h3{
+    text-align: center;
+    border-bottom: 4px solid #FFA000;
+    width: 17em;
+}
+
+.exp h3{
+    text-align: center;
+    border-bottom: 4px solid #FFA000;
+    width: 10em;
+}
+
+.listCont ul{
+list-style: none;
+padding: 5px;
+}
+
+.listCont{
+    justify-content: space-around !important;
+}
+
+.listCont ul li{
+    
+}
+
+.flat {
+    
+    justify-content: space-between !important;
+    padding: 0 3vw ;
+    
+}
+
+.flat ul{
+
+padding: 0;
+
+list-style: none;
+
+border-left: 3px solid #FFA000;
+
+padding-left: 8px;
+
+box-sizing: border-box;
+}
+
+.flat ul li{
+    
+}
+
+.cont1{
+    margin-left: 2em;
+    width: 40vw;
+}
+
+.cont2{
+    margin-right: 2em;
+    width: 50vw;
+}
+
+
+.actExt h3{
+    text-align: center;
+    border-bottom: 4px solid #FFA000;
+    width: 14em;
+}
